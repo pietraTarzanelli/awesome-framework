@@ -1,7 +1,7 @@
 # Awesome Framework
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of projects, tools, documentation and resources related to the Framework Laptop
+A fork of a curated list of projects, tools, documentation and resources related to the Framework Laptop 
 
 ## Contents
 - [Disclaimer](#disclaimer) - Please read!
