@@ -13,6 +13,7 @@ A curated list of projects, tools, documentation and resources related to the Fr
   - [Chargers](#chargers)
   - [Docking Stations](#docking-stations)
   - [Cases and Sleeves](#cases)
+  - [Expansion Card Storage](#expansion-card-storage)
 - [Hardware Support](#hardware-support)
   - [Storage](#storage)
   - [Memory](#memory)
@@ -30,6 +31,9 @@ This repository and the resources within it are **COMPLETELY UNOFFICIAL** and no
   - UART [GitHub](https://github.com/jyancat/UART-Expansion-Card) and [Store](https://lectronz.com/products/uart-expansion-card) - Complete UART expansion card, available as pre-assembled from his store, or design files on GitHub.
 - [Spacehuhn](https://www.youtube.com/watch?v=IML9c_MsyQU)
   - ESP32-S3 [GitHub](https://github.com/SpacehuhnTech/framework) and [Store](https://spacehuhn.store/products/framework-esp32-s3-expansion-card) - An ESP32-S3 development board with Neopixel RGB LED and a QWIIC/Stemma QT connector.
+- [Frameoscope](https://github.com/jlcjak/frameoscope) - Oscilloscope Expansion Card with 40 MSPS sampling rate, 10 MHz bandwidth and ngscopeclient support.
+- [DongleHider+](https://github.com/LeoDJ/FW-EC-DongleHiderPlus) - Expansion Card that hides USB dongles internally while retaining an external USB-A port.
+- [Framework 2 USB-C Expansion Card](https://github.com/altrup/Framework-2-USB-C-Expansion-Card) - Work-in-progress Expansion Card providing two USB-C ports with USB 3.2 support.
 
 ## Mainboard Development
 - [Mainboard Reference](https://github.com/FrameworkComputer/Mainboard) - Physical and electrical reference for the Mainboard (and a 3D printable enclosure).
@@ -57,8 +61,13 @@ This repository and the resources within it are **COMPLETELY UNOFFICIAL** and no
 
 ## Accessories
 ### Chargers
-- [Official Framework Power Adapter](https://frame.work/products/power-adapter?v=FRANCEPH0B) - Framework's first-party USB-PD charging adapter. 
+- [Official Framework Power Adapter](https://frame.work/products/power-adapter?v=FRANCEPH0B) - Framework's first-party USB-PD charging adapter.
 - [Anker 65W Nano](https://www.amazon.com/dp/B08T5QN2TR) - Community validated single-port 65W PD charger.
+- [Anker 735 Charger (Nano II 65W)](https://www.anker.com/eu-en/products/a2667) - Community validated 65W USB-PD/PPS charger with two USB-C ports and one USB-A port.
+
+  ### Expansion Card Storage
+- [Expansion Card Holder](https://github.com/josh1244/Expansion_Card_Holder) - 3D-printable holder designed to store four Framework Expansion Cards.
+- [Framework Card Storage](https://github.com/aristeu/framework_card_storage) - OpenSCAD-based Expansion Card storage case with magnetic closure.
 
 ### Docking Stations
 - [Thunderbolt 4 Support](https://knowledgebase.frame.work/does-the-framework-laptop-support-thunderbolt-rkjEJn4Jt) - Official knowledgebase article on TB4 support.
@@ -75,6 +84,8 @@ This repository and the resources within it are **COMPLETELY UNOFFICIAL** and no
 - [Officially Validated SSD List](https://knowledgebase.frame.work/en_us/what-storage-ssd-parts-are-compatible-with-the-framework-laptop-rJOOeHU0_)
 - [SK Hynix Gold P31](https://www.amazon.com/dp/B08DKB5LWY) - Community validated SSD. Available in 500GB, 1TB and 2TB sizes.
 - [Crucial P2](https://www.amazon.com/gp/product/B086BGWNY8/) - Community validated SSD. Available in 256GB, 500GB, 1TB and 2TB.
+- [EDILOCA EN600 Pro](https://ediloca.net/products/ediloca-en600-pro-ssd-2tb-pcle-3-0x4-nvme-m-2-2280-up-to-3500mb-s-internal-solid-state-drive-slc-cache-3d-nand-tlc-graphene-cooling-sticker-storage-for-pc-desktop-and-laptops) - Community validated SSD.
+-  [Western Digital PC SN530](https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/western-digital/product/internal-drives/pc-sn530-ssd/product-brief-sn530-ssd.pdf) - Community validated NVMe SSD.
 
 ### Memory
 - [Officially Validated DRAM List](https://knowledgebase.frame.work/en_us/what-memory-dram-parts-are-compatible-with-the-framework-laptop-ry_jbS8Ru)
