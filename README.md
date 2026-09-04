@@ -261,6 +261,31 @@ EC firmware is **Mainboard-generation-specific**. Do not flash EC firmware simpl
   * Linux-oriented; hardware detection depends on the kernel, firmware and system interfaces exposed by the specific machine.
 
 
+### Tested Linux Distributions
+
+Community-tested distributions on Framework hardware.
+
+* **Ubuntu**
+
+  * **Compatibility:** ✅ FW12 · ✅ FW13 · ✅ FW13 Pro · ✅ FW16
+  * Officially supported on selected generations.
+
+* **Fedora**
+
+  * **Compatibility:** ✅ FW12 · ✅ FW13 · ✅ FW13 Pro · ✅ FW16
+  * Officially supported on selected generations.
+
+* **Arch Linux**
+
+  * **Compatibility:** 🟡 FW12 · ✅ FW13 · 🟡 FW13 Pro · 🟡 FW16
+  * Community supported; see the [Arch Wiki](https://wiki.archlinux.org/title/Framework_Laptop).
+
+* **CachyOS**
+
+  * **Compatibility:** ❔ FW12 · ✅ FW13 AMD Ryzen AI 300 · ❔ FW13 Pro · ❔ FW16
+  * Community tested on selected Framework Laptop 13 AMD Ryzen AI 300 systems.
+
+
 ---
 
 ## Accessories
