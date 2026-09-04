@@ -151,6 +151,13 @@ Framework uses the same physical Expansion Card ecosystem across FW12, FW13, FW1
   * **Compatibility:** 🟡 FW12 · 🟡 FW13 · 🟡 FW13 Pro · 🟡 FW16
   * ⚠️ Actual USB speed, display output, USB-PD and other functionality may depend on the host Expansion Card slot.
 
+     
+* [Framework Expansion Card HDMI Shell](https://www.printables.com/model/1594979-framework-expansion-card-hdmi-shell#preview.file.OGQLU) — Replacement 3D-printable shell for the Framework HDMI Expansion Card, useful if you want to customize your Expansion Card aesthetically or if the original shell is broken.
+
+  * **Compatibility:** ✅ FW12 · ✅ FW13 · ✅ FW13 Pro · ✅ FW16
+  * Uses the standard Framework Expansion Card form factor; exact fit with different HDMI Expansion Card revisions should be checked before printing.
+
+
 ---
 
 ## Mainboard Development
@@ -191,6 +198,12 @@ Framework Laptop 12 and Framework Laptop 16 use different Mainboard/chassis desi
   * [Framework-Test-Bench](https://github.com/whatthefilament/Framework-Test-Bench) — Development/test bench.
 
     * **Compatibility:** ✅/⚠️ FW13 · 🟡 FW13 Pro · ❌ FW12 · ❌ FW16
+   
+  * [Beth Deck rev. 1.5](https://www.printables.com/model/1051411-framework-portable-handheld-case-beth-deck-rev-15?lang=it) — 3D-printable portable handheld enclosure built around a Framework Laptop 13 Mainboard, turning it into a handheld-style portable computer.
+
+    * **Compatibility:** ✅/⚠️ FW13 Mainboard · 🟡 FW13 Pro Mainboard · ❌ FW12 · ❌ FW16
+    * ⚠️ Mainboard generation and physical fit should be checked before building.
+
 
 * [DIY Perks — "Triple-Screen Laptop DONE RIGHT!"](https://www.youtube.com/watch?v=aUKpY0o5tMo) — Custom triple-screen portable computer using a Framework Mainboard and battery.
 
@@ -219,7 +232,7 @@ EC firmware is **Mainboard-generation-specific**. Do not flash EC firmware simpl
 
 ---
 
-## Linux Support
+##  Support
 
 * [Official Framework Linux Support](https://frame.work/linux) — Officially supported distros and setup guides.
 
@@ -240,6 +253,13 @@ EC firmware is **Mainboard-generation-specific**. Do not flash EC firmware simpl
 * [Common Problems](/linux/common-problems.md) — Collection of common Linux problems and solutions.
 
   * **Compatibility:** ⚠️ Check each issue individually.
+ 
+* [FrameFetch](https://github.com/pietraTarzanelli/FrameFetch) — Framework-focused terminal hardware dashboard inspired by Fastfetch. It renders hardware information around an ASCII representation of the Framework Laptop mainboard and can also run as a lightweight live system monitor.
+
+  * **Compatibility:** ❔ FW12 · ✅/⚠️ FW13 · ❔ FW13 Pro · ❔ FW16
+  * Currently developed and tested primarily on selected Framework Laptop 13 revisions, especially AMD Ryzen AI 300 Series systems. Other Framework generations and configurations may require additional support or calibration.
+  * Linux-oriented; hardware detection depends on the kernel, firmware and system interfaces exposed by the specific machine.
+
 
 ---
 
